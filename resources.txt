@@ -1,1 +1,5 @@
 http://msdn.microsoft.com/en-us/data/jj591621.aspx
+
+
+Alternate to CodeFirst
+https://github.com/schambers/fluentmigrator
