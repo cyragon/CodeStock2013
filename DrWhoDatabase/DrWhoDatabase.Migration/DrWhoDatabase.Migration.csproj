@@ -50,6 +50,10 @@
     <Compile Include="Migrations\201307081849013_FB100-LinkingTable.Designer.cs">
       <DependentUpon>201307081849013_FB100-LinkingTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201307100131055_FB101-EpisodeTracking.cs" />
+    <Compile Include="Migrations\201307100131055_FB101-EpisodeTracking.Designer.cs">
+      <DependentUpon>201307100131055_FB101-EpisodeTracking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="DrWhoContext.cs" />
     <Compile Include="Program.cs" />
@@ -62,6 +66,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201307081849013_FB100-LinkingTable.resx">
       <DependentUpon>201307081849013_FB100-LinkingTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307100131055_FB101-EpisodeTracking.resx">
+      <DependentUpon>201307100131055_FB101-EpisodeTracking.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

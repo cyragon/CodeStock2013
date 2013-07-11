@@ -13,7 +13,7 @@ namespace DrWhoDatabase.Migration.Migrations
                 DoctorID = c.Int(nullable: false),
                 CompanionID = c.Int(nullable: false)
             });
-
+            
         }
         
         public override void Down()
